@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		90EC91F28AC75C4F04E276A5 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1754D7D03EAC409ECAE3F52 /* Pods_Parstagram.framework */; };
+		9C3F95FF22254A40006D2B0F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F95FE22254A40006D2B0F /* CommentCell.swift */; };
 		9CEBDFE0221B430E005C4456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBDFDF221B430E005C4456 /* AppDelegate.swift */; };
 		9CEBDFE5221B430E005C4456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEBDFE3221B430E005C4456 /* Main.storyboard */; };
 		9CEBDFE7221B430E005C4456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEBDFE6221B430E005C4456 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		2B8B15FA15B317990D2D8AE3 /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 		42232C4F950355BA35C1D56A /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		9C3F95FE22254A40006D2B0F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		9CEBDFDC221B430E005C4456 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEBDFDF221B430E005C4456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CEBDFE4221B430E005C4456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				9CEBDFF3221B4501005C4456 /* FeedViewController.swift */,
 				9CEBDFF5221B5111005C4456 /* CameraViewController.swift */,
 				9CEBDFF7221B6A7C005C4456 /* PostCell.swift */,
+				9C3F95FE22254A40006D2B0F /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				9CEBDFF4221B4501005C4456 /* FeedViewController.swift in Sources */,
 				9CEBDFE0221B430E005C4456 /* AppDelegate.swift in Sources */,
 				9CEBDFF8221B6A7C005C4456 /* PostCell.swift in Sources */,
+				9C3F95FF22254A40006D2B0F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
